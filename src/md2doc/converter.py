@@ -1,7 +1,6 @@
 from pathlib import Path
 
-import pandoc_backend
-import python_backend
+from . import pandoc_backend, python_backend
 
 
 def convert(source: Path, target: Path, backend: str = "auto") -> str:

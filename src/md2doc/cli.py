@@ -1,8 +1,7 @@
 import argparse
 from pathlib import Path
 
-import converter
-
+from . import converter
 
 def parse_args():
     parser = argparse.ArgumentParser(

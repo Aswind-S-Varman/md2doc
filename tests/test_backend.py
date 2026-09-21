@@ -1,7 +1,6 @@
 from docx import Document
 
-import converter
-import python_backend
+from md2doc import python_backend, converter
 
 
 def test_separator_row_is_detected():
